@@ -26,4 +26,4 @@ ACCESS_TOKEN_SECRET = ""
 input username: susumuis  # input twitter username
 ```
 
-and read `susumuis.output.csv`
+and read `[username].output.csv`
