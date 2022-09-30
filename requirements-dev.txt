@@ -1,5 +1,5 @@
 -r requirements.txt
 black
-isort < 5.4.0
+isort
 mypy
 flake8
