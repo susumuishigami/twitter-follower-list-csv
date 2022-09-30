@@ -1,8 +1,8 @@
 [tool.black]
-exclude = '(venv|.pytest_cache|.mypy_cache|manage.py|wsgi.py|asgi.py)'
+exclude = '(venv|.pytest_cache|.mypy_cache)'
 
 [tool.isort]
-skip = 'venv,.pytest_cache,.mypy_cache,manage.py,wsgi.py,asgi.py'
+skip = 'venv,.pytest_cache,.mypy_cache'
 multi_line_output = 3
 force_grid_wrap = 0
 include_trailing_comma = true
