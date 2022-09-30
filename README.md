@@ -23,7 +23,7 @@ ACCESS_TOKEN_SECRET = ""
 
 ```console
 % python get_follower.py
-input username: susumuis  # input twittr username
+input username: susumuis  # input twitter username
 ```
 
 and read `susumuis.output.csv`
