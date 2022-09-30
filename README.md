@@ -3,7 +3,7 @@
 ## setup
 
 make credential file: `credential.py`.
-and following set key and tokens:
+and set following key and tokens:
 
 ```
 API_KEY = ""
