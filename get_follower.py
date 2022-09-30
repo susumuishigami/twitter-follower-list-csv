@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    username = input("input username")
+    username = input("input username: ")
     api = tweepy.Client(
         bearer_token=BEARAR_TOKEN,
         consumer_key=API_KEY,
@@ -72,7 +72,7 @@ def main():
         ],
     )
 
-    followers_df.to_csv(f"output.{user_id}.csv")
+    followers_df.to_csv(f"{username}.output.csv")
 
 
 if __name__ == "__main__":
